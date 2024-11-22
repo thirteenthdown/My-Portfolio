@@ -1,0 +1,191 @@
+/* General Styles */
+body {
+    font-family: sans-serif;
+    font-size: 10px;
+    color: #4a4a4a;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    line-height: 1;
+}
+
+.container {
+    max-width: 600px;
+    text-align: left;
+    padding: 20px;
+    box-sizing: border-box;
+    
+
+}
+
+/* Header Section */
+header h1 {
+    
+    opacity: 1;
+    font-family: sans-serif;
+    font-weight: 500; /* Normal */
+    font-size: 18px; /* Slightly larger */
+    letter-spacing: 0.5px; /* Fine-tune spacing */
+    margin: 0;
+    color: #222;
+    align-items: center;
+    margin-bottom: 35px;
+    
+    
+}
+
+header .chinese {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500; /* Bold the Chinese text */
+    color: #333;
+}
+.section-1 {
+    font-size: 60%;
+    float: right; /* Pushes it to the right */
+    position: relative; /* Allows fine-tuning */
+    top: 7px; /* Adjust vertical alignment */
+    margin-left: 10px; /* Adds spacing if needed */
+  }
+  
+  
+
+header .description, header .current {
+    font-size: 12px;
+    margin: 10px 0;
+    line-height: 1.37;
+    font-weight: 600; /* Semi-bold for paragraphs */
+    color: #5f5e5e;
+
+}
+
+/* Thin Horizontal Line */
+.thin-line {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+/* Contact and Teams Section */
+.sections {
+    display: flex;
+    justify-content: space-between; /* Side-by-side alignment */
+    text-align: left;
+    position: relative;
+}
+
+.contact, .teams {
+    width: 48%; /* Equal width for both sections */
+    position: relative;
+}
+
+/* Vertical Divider */
+.divider {
+    width: 1px; /* Thickness of the vertical line */
+    height: 50%; /* Shortened height for the vertical line */
+    background-color: #ddd; /* Light grey color */
+    position: absolute;
+    left: 50%; /* Position in the middle */
+    top: 30%; /* Center vertically relative to sections */
+    transform: translateX(-50%);
+}
+
+.contact h2, .teams h2 {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #333;
+    text-transform: uppercase;
+    
+}
+
+.sections {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact, .teams {
+    width: 48%; /* Adjust for proper alignment */
+}
+
+.section-2, .section-3 {
+    font-size: 90%;
+    float: right; /* Pushes it to the right */
+    position: relative; /* Allows fine-tuning */
+
+}
+.contact ul, .teams ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact ul li, .teams ul li {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1;
+    margin: 6px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #4a4a4a;
+}
+
+.contact ul li i {
+
+    margin-left: auto; /* Ensures the icon moves to the far right */
+}
+
+.fa-solid fa-square-arrow-up-right {
+    float: right; /* Pushes it to the right */
+    position: relative; /* Allows fine-tuning */
+}
+
+.teams .year {
+    font-weight: 300;
+    float: right;
+    color: #999;
+}
+
+.sections ul li {
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
+  
+.sections ul li:hover {
+    color: rgb(181, 181, 181); /* Change color on hover */
+}
+
+/* Footer */
+footer {
+    position: absolute; /* Enable precise positioning */
+    bottom: 0; /* Set it to the bottom of the container */
+    left: 360px; /* Align with the left padding of the container */
+    margin-bottom: 20px; /* Optional: Add spacing from the bottom edge */
+    font-size: 14px; /* Optional: Adjust font size */
+    letter-spacing: 0.1em;
+    font-weight: bolder;
+    color: #9f9d9d;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+
+a {
+    color: inherit; /* Use the text color of the parent element */
+    text-decoration: none; /* Remove the underline */
+  }
+  
+  a:visited {
+    color: inherit; /* Ensure visited links retain the same text color */
+  }
+  
+  a:hover,
+  a:focus {
+    text-decoration: none; /* Prevent underline on hover or focus */
+    color: inherit; /* Keep the text color consistent */
+  }
+  
+
